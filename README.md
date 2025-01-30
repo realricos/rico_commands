@@ -1,32 +1,25 @@
-# Information 
+# Rico Commands
 
-This is a simple commands script for those who uses qb-core as framework for their servers.
+This scripts contains a set of simple commands for users of the qb-core framework for their servers.
 
+## Commands
 
-The following functions with script is :
+The following commands are included in this script:
 
-`/goto id    -- Which makes it easy for staff to teleport to a specific playerid.
+- `/goto id` - Allows staff to teleport to a specific player ID.
+- `/bring id` - Allows staff to teleport a player to themselves.
+- `/noclip` - Provides a realistic noclip function similar to those seen in Swedish FiveM servers.
+- `/toggle id` - Allows staff to toggle the visibility of player IDs without using txAdmin Show ID. When the player talks, their name switches to green and reverts to normal when not talking.
+- `/spawnveh` - Spawns a car with the license plate "ADMIN" and gives the key to the player. This command supports servers using the Quasar vehicle keys system. To enable support for `qs-vehiclekeys`, uncomment line 9 in `fxmanifest.lua`.
 
-/bring id   --  Which makes it easy for staff to teleport someone to themselves.
+## Customization
 
-/noclip     -- This command has been customized with a realistic noclip functions to look similar in what you see in the daily swedish FiveM Servers.
+You can modify the commands to suit your needs and add additional functionality as desired.
 
-/toggle id  -- This command has been made for those who want their staff to not use txAdmin Show ID. 
-                A cool feature is when the player talks the name switches colour to green when they talk and switches back to normal when not talking.
+## Contact
 
-/spawnveh   -- With the support of quasar vehiclekeys system, you could spawn a car with the license plate : ADMIN and key will be given to player. it supports also servers with vehiclekeys as an item.    
-             .... If you want it to work with qs-vehiclekeys find the fxmanifest.lua and uncomment line 9.`
+For support or inquiries, reach out to me on Discord: `realricos`
 
+## Important Notice
 
-## Changing ? ##
-
-You can change the commands to your liking and also add things if you want to it.
-
-
-
-## PSSTTT ## 
-
-Reach out to me on discord : realricos
-
-## IMPORTANT ## 
-DON'T RESELL THIS Script because it's free. 
+This script is free. Do not resell it.
